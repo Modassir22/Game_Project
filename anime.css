@@ -1,0 +1,41 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellowgreen;
+    text-align: center;
+    /* animation-name: rotateanime;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:2;
+    animation-direction: normal;*/
+    /* border-radius: 50%;  */
+    animation:fontanime 0.2s linear 3s infinite normal;
+}
+
+@keyframes fontanime{
+    0%{
+        font-size: 20px;
+        background-color: yellow;
+    }
+    50%{
+        font-size: 50px;
+        font-weight: bold;
+        background-color: aqua;
+        border-radius: 50%; 
+    }
+    100%{
+        font-size: 80px;
+        border-radius: 0px;
+        background-color: brown;
+    }
+}
+/* @keyframes rotateanime{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        box-shadow: 2px 2px 5px black;
+    }
+} */

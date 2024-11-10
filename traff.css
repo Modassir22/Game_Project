@@ -1,0 +1,30 @@
+.outer{
+    margin:10px 500px ;
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+}
+.firstInner{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+.secondInner{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.thirdInner{
+    height:50px;
+    width: 50px;
+    border: 2px solid black;
+    margin:10px;
+    border-radius: 50%;
+    background-color: green;
+}

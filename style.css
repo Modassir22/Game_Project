@@ -1,0 +1,35 @@
+*{
+    font-family: 'Courier New';
+}
+h1{
+    color: #b92b27;
+}
+#login{
+    background-color: #ffffff;
+    color: #000000;
+}
+#signup{
+    background-color: rgb(100, 100, 184);
+    color: #000000;
+}
+.upvote{
+    color: #ffffff;
+    background-color: #000000;
+}
+/* decendant selector */
+.follow a{
+    color: blueviolet;
+    text-decoration: red underline;
+    background-color: aqua;
+    text-transform: uppercase;
+}
+nav ul li a{
+    color: hotpink;
+}
+p+h3{
+    text-decoration: underline;
+    color:  #b92b27;
+}
+.upvote+button{
+    background-color: aquamarine;
+}

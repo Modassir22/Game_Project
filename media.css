@@ -1,0 +1,43 @@
+div h1{
+    color: black;
+    font-weight: bold;
+}
+div{
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (width:500px){
+    div h1{
+        color: blueviolet;
+        font-style: italic;
+        text-align: center;
+    }
+    div{
+        background-color: greenyellow;
+        border-radius: 30px;
+    }
+}
+@media (min-width:400px){
+    div{
+        background-color: purple;
+    }
+    div h1{
+        color: black;
+    }
+}
+@media (max-width:200px){
+    div{
+        background-color: green;
+    }
+    div h1{
+        color: yellow;
+    }
+}
+
+@media (orientation:landscape){
+    div{
+        height: 400px;
+        width: 400px;
+        background-color: brown;
+    }
+}
